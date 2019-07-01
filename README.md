@@ -20,11 +20,6 @@ It includes some supervisor configurations to run the server and the watchdog.
 
 **IMPORTANT**: Make sure the absolute paths match your setup.
 
-## Todo
-
-- Absolute paths should be environment variables.
-- Ports and other constants should be environment variables. 😴
-
 ## Credits
 
 - Thanks to the creators and maintainers of https://www.npmjs.com/package/node-rtsp-stream and https://github.com/phoboslab/jsmpeg.

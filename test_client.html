@@ -11,7 +11,8 @@
 
 
 <script>
-  var client = new WebSocket('ws://localhost:9999');
+  var hostname = window.location.hostname;
+  var client = new WebSocket('ws://'+ hostname +':9999');
   var canvas = document.querySelector('canvas');
   var player = new jsmpeg(client, {
     canvas: canvas 

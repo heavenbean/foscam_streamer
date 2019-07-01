@@ -5,6 +5,7 @@ stream = new Stream({
   name: 'foscam_stream',
   streamUrl: streamUrl,
   wsPort: 9999,
-  width: 1280,
-  height: 720
+  // uncomment following 2 lines, only if you know exactly width and height
+  // width: 1280,
+  // height: 720
 });
